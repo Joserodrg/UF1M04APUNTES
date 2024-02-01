@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes</title>
+    <link rel="stylesheet" href="style.css"> <li></li>
+</head>
+<body>
+    <h1>GitHub</h1>
+
+    <p>GitHub es un lugar en línea donde las personas pueden almacenar y compartir su código de programación. Funciona como una plataforma colaborativa que utiliza el sistema de control de versiones Git, permitiendo a los desarrolladores trabajar juntos en proyectos y realizar un seguimiento de los cambios en el código de manera eficiente.</p>
+    <div class="contenedor-lista">
+    <h3>Inicializar un Repositorio:</h3>
+    <ul>
+      <li><strong>git init: </strong> Inicializa un nuevo repositorio Git en el directorio actual.</li>
+    </ul>
+    <br>
+    <h3>Clonar un Repositorio:</h3>
+    <ul>
+      <li><strong>git clone "URL"</strong> Clona un repositorio remoto en tu máquina local.</li>
+    </ul>
+    <br>
+    <h3>Agregar Cambios al Área de Preparación:</h3>
+    <ul>
+      <li><strong>git add "archivo"</strong>  Añade un archivo específico al área de preparación.</li>
+      <li><strong>git add . o git add --all:</strong> Añade todos los archivos modificados al área de preparación.</li>
+    </ul>
+    <br>
+    <h3>Actualizar Repositorio Remoto:</h3>
+    <ul>
+      <li><strong>git push origin:</strong> Sube los cambios de una rama al repositorio remoto.</li>
+      <li><strong>git pull origin:</strong> Actualiza el repositorio local con los cambios más recientes del repositorio remoto.</li>
+    </ul>
+    </div>
+<hr>
+    <h1>MARKDOWN</h1>
+
+    <p>Markdown utiliza asteriscos o guiones bajos para dar formato al texto en negrita o cursiva. Puedes replicar esto en HTML usando las etiquetas <code>&lt;strong&gt;</code> para negrita y <code>&lt;em&gt;</code> para cursiva.</p>
+
+    <strong>Texto en negrita</strong>
+    <em>Texto en cursiva</em>
+
+    <p>Las listas en Markdown se crean utilizando asteriscos, guiones o números. En HTML, puedes usar las etiquetas <code>&lt;ul&gt;</code> para listas no ordenadas y <code>&lt;ol&gt;</code> para listas ordenadas.</p>
+
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ul>
+
+    <ol>
+        <li>Elemento A</li>
+        <li>Elemento B</li>
+    </ol>
+
+    <p>Los enlaces en Markdown se crean con corchetes y paréntesis, y las imágenes con un signo de exclamación antes del enlace. En HTML, puedes usar las etiquetas <code>&lt;a&gt;</code> e <code>&lt;img&gt;</code> respectivamente.</p>
+
+    <a href="https://www.ejemplo.com">Enlace a Ejemplo</a>
+    <br>
+    <img src="imagen.jpg" alt="Texto alternativo">
+
+    <p>Markdown utiliza almohadillas (#) para encabezados <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>.</p>
+
+    <p>Puedes agregar líneas horizontales utilizando tres guiones (-), tres asteriscos (*), o tres guiones bajos (_).</p>
+
+    <p>Markdown permite citas con el uso del símbolo mayor que (&gt;). Puedes emular esto en HTML utilizando la etiqueta <code>&lt;blockquote&gt;</code></p>
+
+    <h1>HTML</h1>
+
+    <h3>Estructura Básica:</h3>
+
+    <p>Un documento HTML comienza con la etiqueta <code>&lt;!DOCTYPE html&gt;</code> que define el tipo de documento y sigue con las etiquetas <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> y <code>&lt;body&gt;</code></p>
+
+    <h3>Encabezados y Párrafos:</h3>
+
+    <p>Utiliza las etiquetas <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> para encabezados y <code>&lt;p&gt;</code> para párrafos</p>
+
+    <h3>Listas:</h3>
+
+    <p>Crea listas ordenadas (<code>&lt;ol&gt;</code>) y no ordenadas (<code>&lt;ul&gt;</code>) con las etiquetas <code>&lt;li&gt;</code></p>
+
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ul>
+
+    <ol>
+        <li>Item A</li>
+        <li>Item B</li>
+    </ol>
+
+    <h3>Enlaces e Imágenes:</h3>
+
+    <p>Usa <code>&lt;a&gt;</code> para enlaces y <code>&lt;img&gt;</code> para imágenes.</p>
+
+    <a href="https://www.ejemplo.com">Enlace a Ejemplo</a>
+    <br>
+    <img src="imagen.jpg" alt="Texto alternativo">
+
+    <h3>Tablas:</h3>
+
+    <p>Define la estructura de la tabla utilizando <code>&lt;table&gt;</code>:</p>
+
+    <ul>
+        <li><strong>border:</strong> Establece el ancho del borde de la tabla y las celdas.</li>
+        <li><strong>cellpadding:</strong> Espacio interno entre el contenido de la celda y el borde.</li>
+        <li><strong>cellspacing:</strong> Espacio entre las celdas.</li>
+        <li><strong>width:</strong> Ancho de la tabla.</li>
+        <li><strong>align:</strong> Alineación de la tabla (left, center, right).</li>
+    </ul>
+
+    <h2>Ejemplo de Tabla HTML</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fila 1, Celda 1</td>
+                <td>Fila 1, Celda 2</td>
+            </tr>
+            <tr>
+                <td>Fila 2, Celda 1</td>
+                <td>Fila 2, Celda 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Font Awesome</h1>
+
+    <p><strong>Font Awesome</strong> es una biblioteca de iconos vectoriales que se pueden personalizar y utilizar fácilmente en tu página web.</p>
+
+    <h2>Cómo usar Font Awesome:</h2>
+
+    <p>1. Agrega el enlace al archivo de estilos de Font Awesome en la sección <code>&lt;head&gt;</code> de tu HTML.</p>
+
+    <img src="./img/Captura de pantalla 2024-02-01 a las 10.18.29.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <p>2. Utiliza las clases de Font Awesome para agregar iconos a tus elementos HTML.</p>
+
+    <pre>
+        <code>&lt;p&gt;&lt;i class="fas fa-home"&gt;&lt;/i&gt; Inicio&lt;/p&gt;
+&lt;p&gt;&lt;i class="fas fa-envelope"&gt;&lt;/i&gt; Correo electrónico&lt;/p&gt;
+&lt;p&gt;&lt;i class="fas fa-phone"&gt;&lt;/i&gt; Teléfono&lt;/p&gt;</code>
+    </pre>
+
+    <h2>Ejemplos:</h2>
+
+    <p>
+        <i class="fas fa-check-circle icon"></i> Elemento completado<br>
+        <i class="fas fa-star icon"></i> Favorito<br>
+        <i class="fas fa-heart icon"></i> Me gusta<br>
+    </p>
+
+    <p>
+        Puedes encontrar más iconos y personalizaciones en la <a href="https://fontawesome.com/icons" target="_blank">página oficial de Font Awesome</a>.
+    </p>
+
+    <img src="./img/Captura de pantalla 2024-02-01 a las 10.18.29.png" alt="Texto alternativo">
+
+    <h1>Apuntes sobre el uso de &lt;div&gt;</h1>
+
+    <h3>División de Contenido:</h3>
+
+    <ul>
+        <li>El &lt;div&gt; (abreviatura de "division") es un elemento HTML utilizado para dividir o agrupar contenido en secciones independientes.</li>
+        <li>No tiene un significado semántico específico y se utiliza principalmente con fines de organización y estilo.</li>
+    </ul>
+
+    <h3>Uso en Estructura HTML:</h3>
+
+    <ul>
+        <li>Se coloca en el código HTML y puede contener otros elementos HTML, como texto, imágenes, listas, formularios, etc.</li>
+        <li>Facilita la creación de diseños flexibles y la aplicación de estilos específicos a secciones particulares de la página.</li>
+    </ul>
+
+    <h3>Id y Clases:</h3>
+
+    <ul>
+        <li>Puede tener atributos como id y class para identificación y aplicación de estilos.</li>
+        <li>El atributo id debe ser único en la página, mientras que el atributo class puede ser utilizado por varios elementos.</li>
+    </ul>
+
+    <h3>Anidación de &lt;div&gt;:</h3>
+
+    <ul>
+        <li>Los elementos &lt;div&gt; pueden anidarse para estructurar jerárquicamente el contenido de la página.</li>
+        <li>Esto facilita la organización y mantenimiento del código.</li>
+    </ul>
+
+    <h3>Manipulación con CSS:</h3>
+
+    <ul>
+        <li>Es común seleccionar y manipular elementos &lt;div&gt; con JavaScript para realizar cambios dinámicos en la página web.</li>
+    </ul>
+
+    <hr>
+
+    <h1>Favicon:</h1>
+
+    <h3>¿Qué es?</h3>
+
+    <ul>
+        <li>Un favicon es un pequeño ícono que se muestra en la pestaña del navegador y junto a la URL en la barra de direcciones.</li>
+        <li>Proporciona una identidad visual única para tu sitio web.</li>
+    </ul>
+
+    <h3>Ubicación y Nombre del Archivo:</h3>
+
+    <ul>
+        <li>El favicon debe ubicarse en la raíz del directorio de tu sitio web.</li>
+        <li>Se recomienda nombrar el archivo como "favicon.ico" para asegurar la detección automática por los navegadores.</li>
+    </ul>
+
+    <h3>Código HTML Básico:</h3>
+
+    <ul>
+        <li>Para insertar el favicon, agrega la siguiente línea dentro de la etiqueta &lt;head&gt; de tu documento HTML:</li>
+    </ul>
+
+    <img src="./img/" alt="Texto alternativo">
+
+    <hr>
+
+    <h1>Introducción a CSS</h1>
+
+    <h3>División de Contenido:</h3>
+
+    <ul>
+        <li>(X)HTML: La etiqueta &lt;div&gt;&lt;/div&gt;</li>
+        <li>Ubicación: Cómo incluir CSS (externo, style body y elemento)... prioridad entre ellos.</li>
+        <li>Sintaxis básica CSS:</li>
+        <p>Estructura, comentarios, agrupar selectores, tipos de selectores, selectores avanzados, composición.</p>
+    </ul>
+
+    <hr>
+
+    <h3>Sintaxis Básica</h3>
+
+    <p>Una hoja de estilos es un conjunto de reglas que definen la estética final de los documentos (X)HTML que la usan. Cada regla está formada por un selector y un conjunto de declaraciones.   </p>
+
+    <p>Un selector nos sirve para definir a qué elemento o elementos queremos aplicar las declaraciones de la regla. Las declaraciones son las diversas características que han de cumplir los elementos que concuerdan con el selector. A cada propiedad de cada declaración le ponemos el valor que sea necesario.</p>
+
+    <img src="./img/" alt="Texto alternativo">
+
+    <p><strong>Selector de clase.</strong> Corresponde con todos los elementos que tengan el atributo class con el valor especificado. Por ejemplo, el selector:</p>
+
+    <img src="./img/" alt="Texto alternativo">
+
+    <p><strong>Selectores universales.</strong> Sirven para seleccionar todos los elementos de la página. En el  ejemplo, todos los elementos han de tener un borde sólido negro de un píxel:</p>
+
+    <img src="./img/" alt="Texto alternativo">
+
+    <p><strong>Selectores de hijos.</strong> Para seleccionar elementos concretos que son hijos DIRECTOS de otros elementos concretos. Por ejemplo, esta regla pone de color azul el texto de los elementos &lt;strong&gt; que son hijos de &lt;h3&gt; pero no el resto de elementos &lt;strong&gt;</p>
+
+    <img src="./img/" alt="Texto alternativo">
+
+    <p><strong>Selectores de descendientes.</strong>S Similar al selector de hijos pero, a diferencia de ellos, que solo seleccionan elementos descendientes DIRECTOS, los selectores de descendientes seleccionan los elementos pertinentes EN CUALQUIER PUNTO de la jerarquía del elemento.</p>
+
+    <img src="./img/" alt="Texto alternativo">
+
+    <hr>
+
+    <h3>COMPOSICIÓN. Márgenes, bordes y relleno en CSS</h3>
+
+    <h5>Margen (margin)</h5>
+
+    <ul>
+      <li><strong>margin-top</strong> (margen superior)</li>
+      <li><strong>margin-right</strong> (margen derecho)</li>
+      <li><strong>margin-bottom </strong> (margen inferior)</li>
+      <li><strong>margin-left</strong> (margen izquierdo)</li>
+  </ul>
+    <br>
+
+    <h5>border</h5>
+    <ul>
+      <li><strong>Ancho del Borde</strong> (border-width)</li>
+      <li><strong>Estilo del Borde </strong> (margen derecho)</li>
+      <li><strong>margin-bottom </strong> (margen inferior)</li>
+      <li><strong>margin-left</strong>  (border-style)</li>
+      <li><strong>Color del Borde</strong>  (border-color)</li>
+  </ul>
+<br>
+<h5>Padding</h5>
+    <ul>
+      <li><strong>La sintaxis general es:</strong> padding: valor;</li>
+      <li><strong>Valores del Padding:</strong>  (padding: 10px 20px 15px 5px;).</li>
+  </ul>
+<br>
+<hr>
+<h3>ResponsiveFlex</h3>
+<p><strong>display:flex </strong>permite que los elementos hijos dentro del contenedor flex se ajusten automáticamente para llenar el espacio disponible en el contenedor, proporcionando un diseño más flexible y dinámico.</p>
+<img src="./img/responsiveflex.png" alt="Texto alternativo">
+<br>
+<h3>ResponsiveFloat</h3>
+<h5>Float para Columnas:</h5>
+<p>La propiedad float se ha utilizado históricamente para crear diseños de columnas, especialmente antes de la popularización de Flexbox y Grid. Por ejemplo, se podían flotar elementos div a la izquierda o derecha para crear una estructura de columnas.</p>
+<img src="./img/Float.png" alt="Texto alternativo">
+<br>
+<h5>InfoExtra</h5>
+<p>float puede volverse problemático en dispositivos pequeños y pantallas estrechas, ya que no maneja naturalmente el redimensionamiento y reordenamiento de elementos que se espera en un diseño responsive.</p>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
